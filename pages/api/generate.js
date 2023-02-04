@@ -29,7 +29,8 @@ export default async function (req, res) {
 
   try {
     const completion = await openai.createCompletion({
-      model: "text-davinci-003",
+      model: "text-davinci-edit-001",
+      instruction: "Edit the following text to make it more professional, error free and polished",
       prompt: text,
       temperature: 0.6,
       "max_tokens": 250,
