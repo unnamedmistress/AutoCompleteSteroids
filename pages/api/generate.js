@@ -29,7 +29,7 @@ export default async function (req, res) {
 
   try {
     try {
-      const completion = await openai.createCompletion({
+      const completion = await openai.createEdit({
         model: "text-davinci-edit-001",
         input: text,
         instruction: "Edit the following text to make it more professional, error-free, and polished",
