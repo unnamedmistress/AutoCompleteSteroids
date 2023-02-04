@@ -53,7 +53,7 @@ export default function Home() {
             onChange={(e) => setTextInput(e.target.value)}
           />
           <input type="submit" value="Edit text" />
-          <p>Give me a few seconds, I'm new an a little slow/p>
+          <p>Give me a few seconds, I'm new an a little slow</p>
         </form>
         <div className={styles.result}>{result}</div>
       </main>
