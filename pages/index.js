@@ -53,6 +53,7 @@ export default function Home() {
             onChange={(e) => setTextInput(e.target.value)}
           />
           <input type="submit" value="Edit text" />
+          <p>after submitting count to 10, I'm new a slow</p>
         </form>
         <div className={styles.result}>{result}</div>
       </main>
