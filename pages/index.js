@@ -35,12 +35,14 @@ export default function Home() {
     <div>
       <Head>
         <title>AI Editor</title>
-        <link rel="icon" href="/dog.png" />
+        <link rel="icon" href="/writingicon.png" />
       </Head>
 
       <main className={styles.main}>
-        <img src="/dog.png" className={styles.icon} />
-        <h3>Improve my text for a hiring manager</h3>
+        <img src="/writingicon.png" className={styles.icon} />
+        <h3>UpGrade Me!</h3>
+        <p> Use this sample text if you don't have any.</p>
+        <p>"Why due people say “break uh leg” wen u go awn staje? because eviry play has uh cast.Why ar their gates around cemetereis? because people ar dyin two jet inn."</p>
         <form onSubmit={onSubmit}>
           <textarea
             rows="10"
