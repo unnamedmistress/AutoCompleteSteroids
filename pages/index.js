@@ -40,8 +40,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <img src="/writingicon.png" className={styles.icon} />
-        <h3>UpGrade Me!</h3>
-        <p> Introducing a cutting-edge app that uses JavaScript, Node, React, and OpenAI API to provide the ultimate autocorrect solution. With this technology, I guarantee that you'll never have to worry about misspelled words or grammatical errors again. Just imagine sending an important email, and my app make all necessary text corrections. No more embarrassing typos, only flawless writing. Give it a try now and witness the difference for yourself. Use this sample text if you don't have any.</p>
+        <h3>AutoCorrect on Steroids!</h3>
+        <p style="font-family:verdana" > Introducing a cutting-edge app that uses JavaScript, Node, React, and OpenAI API to provide the ultimate autocorrect solution. With this technology, I guarantee that you'll never have to worry about misspelled words or grammatical errors again. Just imagine sending an important email, and my app make all necessary text corrections. No more embarrassing typos, only flawless writing. Give it a try now and witness the difference for yourself. Use this sample text if you don't have any.</p>
         <p>"Why due people say “break uh leg” wen u go awn staje? because eviry play has uh cast.Why ar their gates around cemetereis? because people ar dyin two jet inn."</p>
         <form onSubmit={onSubmit}>
           <textarea
