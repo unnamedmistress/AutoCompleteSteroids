@@ -30,7 +30,7 @@ export default async function (req, res) {
   try {
     const completion = await openai.createCompletion({
       model: "text-davinci-003",
-      // PROMPT GOES HERE
+      // PROMPT GOES HERE// To Do: add your own prompt here
       prompt: "Write a comprehensive, grammatically correct, and polished text based on the following prompt. Ensure that all spelling errors are corrected, and all information is clearly explained" + text + "\n\n",
       ///PROMPT ENDS HERE
       max_tokens: 250,
