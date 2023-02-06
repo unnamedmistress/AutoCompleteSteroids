@@ -28,11 +28,13 @@ export default async function (req, res) {
   }
 
   try {
-    const completion = await openai.createEdit({
-      model: "text-davinci-edit-001",
-      input: text,
-      instruction: "Edit the following text to make it more professional, error-free, and polished",
-      temperature: 0.6,
+    const completion = await openai.createCompletion({
+      model: "text-davinci-003",
+      // PROMPT GOES HERE
+      prompt: "Turn this into a story: " + text + "\n\n",
+      ///PROMPT ENDS HERE
+      max_tokens: 7,
+      temperature: 0,
     });
     res.status(200).json({ result: completion.data.choices[0].text });
   } catch(error) {
