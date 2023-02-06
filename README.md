@@ -8,18 +8,26 @@ Easily create polished and grammatically correct text with our AI text generator
 ![Alt text](https://raw.githubusercontent.com/unnamedmistress/AutoCompleteSteroids/main/public/homepage.png)
 
 # Play with Me
+
 https://upgradem.herokuapp.com/
 ## Steps:
-    1. Clone this repository:
-bashCopy code
+
+1. Clone this repository:
+
 git clone https://github.com/unnamedmistress/AutoCompleteSteroids.git
-    2. Install dependencies:
-Copy code
+
+2. Install dependencies:
+
 npm install
-    3. Add API key: Replace YOUR_API_KEY with your OpenAI API key in the .env.example file and then rename it to .env.
-    4. Start the development server:
-Copy code
+
+3. Add API key: Replace YOUR_API_KEY with your OpenAI API key in the .env.example file and then rename it to .env
+
+4. Start the development server:
+
 npm run dev
-    5. Deploy to Heroku: Follow the steps provided by Heroku to deploy your application.
-    6. Customize prompts: Edit the prompt in the Pages/API/generate.js file on line 34 to customize the output of the OpenAI.
+
+5. Deploy to Heroku: Follow the steps provided by Heroku to deploy your application.
+
+6. Customize prompts: Edit the prompt in the Pages/API/generate.js file on line 34 to customize the output of the OpenAI.
+
 With the AI text generator on steroids, you can generate text with ease. Try it out today!
