@@ -33,7 +33,7 @@ export default async function (req, res) {
       // PROMPT GOES HERE
       prompt: "Turn this into a story: " + text + "\n\n",
       ///PROMPT ENDS HERE
-      max_tokens: 7,
+      max_tokens: 250,
       temperature: 0,
     });
     res.status(200).json({ result: completion.data.choices[0].text });
