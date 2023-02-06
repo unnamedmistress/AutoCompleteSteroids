@@ -31,7 +31,7 @@ export default async function (req, res) {
     const completion = await openai.createCompletion({
       model: "text-davinci-003",
       // PROMPT GOES HERE
-      prompt: "Turn this into a story: " + text + "\n\n",
+      prompt: "Write a comprehensive, grammatically correct, and polished text based on the following prompt. Ensure that all spelling errors are corrected, and all information is clearly explained" + text + "\n\n",
       ///PROMPT ENDS HERE
       max_tokens: 250,
       temperature: 0,
